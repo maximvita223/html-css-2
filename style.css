@@ -1,0 +1,77 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+.big__cont {
+    margin-left: 298px;
+    margin-right: 303px;
+}
+.header {
+    padding-left: 59px;
+    padding-right: 214px;
+    padding-top: 26px;
+    padding-bottom: 48px;
+}
+.logo__header{
+    margin-top: 26px;
+    margin-left: 59px;
+    margin-right: 1093px;
+    margin-bottom: 48px;
+}
+.button__header{
+    margin-top: 26px;
+    margin-left: 533px;
+    margin-right: 200px;
+    margin-bottom: 48px;
+}
+.menu{
+    margin-right: 10px;
+
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.head__top{
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.text__top{
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.top{
+    margin-top:149px ;
+    margin-bottom:243px ;
+    margin-left:27px ;
+    margin-right:18px ;
+}
+.top__info{
+    margin-top:15px ;
+    margin-bottom:27px ;
+    margin-left:16px ;
+    margin-right:669px ;
+}
+.top__button{
+    margin-top:362px ;
+    margin-bottom:38px ;
+    margin-left:20px ;
+    margin-right:195px ;
+    
+}
+.futer{
+    margin-left: 298px;
+    margin-right: 303px;
+    margin-bottom: 15px;
+}
