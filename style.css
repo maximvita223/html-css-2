@@ -2,6 +2,8 @@
 	padding: 0px;
 	margin: 0px;
 	border: none;
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
 }
 
 .container {
@@ -13,7 +15,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding-bottom: 84px;
+    padding: 40px;
 }
 
 .button__header{
@@ -49,6 +51,9 @@
     text-align: left;
 font-weight: bold;
 }
+.img__head{
+    max-width: 48%;
+}
 .text__top{
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -64,13 +69,12 @@ display: flex;
 flex-wrap: nowrap;
     flex-direction: row;
     gap: 73px;
+    padding: 40px;
 }
 .top__info{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
+    gap: 15px;
 }
 .top__button{
     display: flex;
@@ -108,10 +112,10 @@ flex-wrap: nowrap;
 }
 .futer__logos{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
+    gap: 48px;
 }
 
 .block__info{
@@ -129,7 +133,7 @@ flex-wrap: nowrap;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    max-width: 17%;
+    width: 310px;
 
 }
 .info2{
@@ -163,22 +167,16 @@ flex-wrap: nowrap;
 }
 .content__block{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     flex-direction: row;
-    gap: 20px;
+    gap: 175px;
 
 }
 .img__buttons{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
     width: 20%;
     gap: 20px;
-    padding-left: 34px;
-    padding-right: 34px;
-    align-content: space-around;
 }
 .text__img{
     display: flex;
