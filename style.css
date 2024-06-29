@@ -2,8 +2,8 @@
 	padding: 0px;
 	margin: 0px;
 	border: none;
-    padding-left: calc(50% - 570px);
-    padding-right: calc(50% - 570px);
+    padding-left: calc(50% - 640px);
+    padding-right: calc(50% - 640px);
 }
 
 .container {
@@ -25,6 +25,11 @@
     align-items: center;
     
 }
+.button22{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
 .menu{
     font-family: 'Inter', sans-serif;
     margin-right: 7px;
@@ -44,23 +49,16 @@
     
 }
 .head__top{
-    font-family: 'Inter', sans-serif;
+    font-family: Gilroy-Bold;
     font-size: 60px;
-    line-height: 70px;
-    letter-spacing: 0em;
-    text-align: left;
-font-weight: bold;
+    
 }
 .img__head{
     max-width: 48%;
 }
 .text__top{
-    font-family: 'Inter', sans-serif;
+    font-family: Gilroy-Medium;
     font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    font-weight: 400;
     color: gray;
 
 }
@@ -100,12 +98,19 @@ flex-wrap: nowrap;
     font-size: 16px;
     font-weight: 400;
 }
-
+.header__info{
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+}
+.text__info{
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    color: #666666;
+}
 .r__more{
-    font-family: 'Inter', sans-serif;
+    font-family: Gilroy-Bold;
     background-color: white;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 11px;
 }
 .futer{
     padding-top: 100px;
@@ -134,7 +139,8 @@ flex-wrap: nowrap;
     flex-wrap: wrap;
     align-items: flex-start;
     width: 310px;
-
+    gap: 20px;
+    
 }
 .info2{
     padding-top: 40px;
@@ -143,45 +149,56 @@ flex-wrap: nowrap;
     padding-right: 34px;
     align-items: flex-start;
     flex-direction: column;
+    box-shadow: 3px 3px 8px 0px #eae6e6;
 }
 .text{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    gap: 19px;
 }
 .text__block{
     max-width: 740px;
     font-size: 16px;
 }
+.block2{
+    background-color: #FAFAFA;
+    
+}
 .block2__info{
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    margin-bottom: 55px;
 }
 .text__block2{
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    color: gray;
+    font-family: Gilroy-Regular;
+    color: #666666;
     text-align: center;
 }
 .content__block{
     display: flex;
     flex-direction: row;
-    gap: 175px;
+    gap: 30px;
 
 }
 .img__buttons{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 20%;
+    align-items: center;
     gap: 20px;
+    background-color: white;
+}
+.img__buttons2{
+    box-shadow: 3px 3px 20px 15px #eae6e6;
 }
 .text__img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 35px;
 }
 .text__img1{
     text-align: center;
